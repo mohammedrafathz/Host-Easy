@@ -29,6 +29,18 @@ body {
   padding: 8px 16px;
 }
 
+.main-header > div {
+  display: inline-block;
+}
+
+.main-header__brand {
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  color: #0e4f1f;
+  vertical-align: middle;
+}
+
 .main-nav__items {
   list-style: none;
   margin: 0;
@@ -37,14 +49,17 @@ body {
 
 .main-nav__item {
   display: inline-block;
+  margin: 0 16px;
 }
 
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 83px);
+  width: calc(100% - 112px);
+  vertical-align: middle;
 }
 
-.main-header > div {
-  display: inline-block;
+.main-nav__item a {
+  text-decoration: none;
+  color: #0e4f1f;
 }
