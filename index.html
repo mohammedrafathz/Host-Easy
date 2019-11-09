@@ -5,24 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <div>
+    <header class="main-header">
+      <div >
         <a href="/index.html">
           Host Easy
         </a>
       </div>
-      <nav>
-        <ul>
-          <li><a href="customers.html">customers</a></li>
-          <li><a href="packages.html">packages</a></li>
-          <li><a href="startHosting.html">startHosting</a></li>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="customers/index.html">customers</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="packages/index.html">packages</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="startHosting/index.html">startHosting</a>
+          </li>
         </ul>
       </nav>
     </header>
-    <h1>I am the h1</h1>
-    <h1 style="margin: 100px;">I am the h2</h1>
+
+    <main>
+      <section id="product-overview">
+        <h1>Get the freedom you deserve!</h1>
+      </section>
+      <section id="plans">
+        <h1 class="section-title">Choose your plan</h1>
+        <p>Make sure you get the most out of your money</p>
+      </section>
+    </main>
   </body>
 </html>
